@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Abstraction/">
+    <Project Path="Abstraction/CarAlarm/CarAlarm.csproj" />
+    <Project Path="Abstraction/CircuitBoard/CircuitBoard.csproj" />
+    <Project Path="Abstraction/SodFarm/SodFarm.csproj" />
+  </Folder>
+  <Folder Name="/Encapsulation/">
+    <Project Path="Encapsulation/ContractV1/ContractV1.csproj" />
+    <Project Path="Encapsulation/ContractV2/ContractV2.csproj" />
+    <Project Path="Encapsulation/SecretFamilyRecipe/SecretFamilyRecipe.csproj" />
+  </Folder>
+</Solution>
