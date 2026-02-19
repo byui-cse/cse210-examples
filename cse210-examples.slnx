@@ -10,5 +10,6 @@
     <Project Path="Encapsulation/ContractV2/ContractV2.csproj" />
     <Project Path="Encapsulation/QuoteBoard/QuoteBoard.csproj" />
     <Project Path="Encapsulation/SecretFamilyRecipe/SecretFamilyRecipe.csproj" />
+    <Project Path="Encapsulation/SodFarm/SodFarm.csproj" />
   </Folder>
 </Solution>
