@@ -1,7 +1,7 @@
 public class PlotManager
 {
-    public string _fileName = "sodfarm.txt";
-    public List<Plot> _plots = new List<Plot>();
+    private string _fileName = "sodfarm.txt";
+    private List<Plot> _plots = new List<Plot>();
 
     /// <summary>
     /// Run the program, collecting dimensions for 
@@ -21,9 +21,7 @@ public class PlotManager
                 Console.Write("Enter Width (ft): ");
                 double w = double.Parse(Console.ReadLine());
 
-                Plot p = new Plot();
-                p._length = l;
-                p._width = w;
+                Plot p = new Plot(l, w);
                 _plots.Add(p);
             }
             catch (FormatException)

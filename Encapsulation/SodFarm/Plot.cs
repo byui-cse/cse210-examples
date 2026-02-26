@@ -1,8 +1,14 @@
 // The Plot Class
 public class Plot
 {
-    public double _length = 0;
-    public double _width = 0;
+    private double _length = 0;
+    private double _width = 0;
+
+    public Plot(double L, double W)
+    {
+        _length = L;
+        _width = W;
+    }
 
     public double GetArea()
     {
