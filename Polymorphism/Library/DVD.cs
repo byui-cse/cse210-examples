@@ -14,4 +14,9 @@ class DVD : LibraryItem
     {
         Console.WriteLine($"ID: {_id}, Name: {_name}, Producer: {_producer}, Description: {_description}, Total: {_totalItems}, Checked Out: {_numberCheckedOut}");
     }
+
+    public override string Serialize()
+    {
+        return $"DVD|{_name}|{_description}|{_id}|{_totalItems}|{_numberCheckedOut}|{_producer}";
+    }
 }

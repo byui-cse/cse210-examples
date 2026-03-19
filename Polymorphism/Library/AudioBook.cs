@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class AudioBook : LibraryItem
 {
     private double _duration;
@@ -19,5 +21,11 @@ class AudioBook : LibraryItem
     public override void Display()
     {
         Console.WriteLine($"ID: {_id}, Name: {_name}, Author: {_author}, Description: {_description}, Duration: {_duration}, Total: {_totalItems}, Checked Out: {_numberCheckedOut}");
+    }
+
+    public override string Serialize()
+    {
+        string cast = string.Join(",", _cast);
+        return $"AudioBook|{_name}|{_description}|{_id}|{_totalItems}|{_numberCheckedOut}|{_duration}|{_author}|{cast}";
     }
 }

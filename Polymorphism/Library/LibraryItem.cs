@@ -41,4 +41,6 @@ abstract class LibraryItem
     }
 
     public abstract void Display();
+
+    public abstract string Serialize();
 }

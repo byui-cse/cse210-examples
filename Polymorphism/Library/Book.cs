@@ -17,4 +17,9 @@ class Book : LibraryItem
     {
         Console.WriteLine($"ID: {_id}, Name: {_name}, Author: {_author}, Description: {_description}, Pages: {_numberOfPages}, Total: {_totalItems}, Checked Out: {_numberCheckedOut}");
     }
+
+    public override string Serialize()
+    {
+        return $"Book|{_name}|{_description}|{_id}|{_totalItems}|{_numberCheckedOut}|{_numberOfPages}|{_author}";
+    }
 }

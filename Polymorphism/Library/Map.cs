@@ -17,4 +17,9 @@ class Map : LibraryItem
     {
         Console.WriteLine($"ID: {_id}, Name: {_name}, Location: {_location}, Description: {_description}, Size: {_size}, Total: {_totalItems}, Checked Out: {_numberCheckedOut}");
     }
+
+    public override string Serialize()
+    {
+        return $"Map|{_name}|{_description}|{_id}|{_totalItems}|{_numberCheckedOut}|{_location}|{_size}";
+    }
 }
