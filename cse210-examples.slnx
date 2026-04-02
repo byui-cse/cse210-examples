@@ -29,5 +29,7 @@
     <Project Path="Extras/MyFirstMauiApp/MyFirstMauiApp.csproj" />
     <Project Path="Extras/BankAccountManager/BankAccountManager.csproj" />
     <Project Path="Extras/BankingTests/BankingTests.csproj" />
+    <Project Path="Extras/AsyncDownloader/AsyncDownloader.csproj" />
+    <Project Path="Extras/AsyncDownloaderWithSpinner/AsyncDownloaderWithSpinner.csproj" />
   </Folder>
 </Solution>

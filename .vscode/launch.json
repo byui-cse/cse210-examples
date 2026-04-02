@@ -200,6 +200,26 @@
             "args": [],
             "cwd": "${workspaceFolder}/Extras/BankAccountManager",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: AsyncDownloader",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-AsyncDownloader",
+            "program": "${workspaceFolder}/Extras/AsyncDownloader/bin/Debug/net10.0/AsyncDownloader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/AsyncDownloader",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: AsyncDownloaderWithSpinner",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-AsyncDownloaderWithSpinner",
+            "program": "${workspaceFolder}/Extras/AsyncDownloaderWithSpinner/bin/Debug/net10.0/AsyncDownloaderWithSpinner.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/AsyncDownloaderWithSpinner",
+            "console": "integratedTerminal"
         }
     ]
 }
