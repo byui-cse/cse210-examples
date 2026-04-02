@@ -190,6 +190,16 @@
             "args": [],
             "cwd": "${workspaceFolder}/Extras/MyFirstMauiApp",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: BankAccountManager",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-BankAccountManager",
+            "program": "${workspaceFolder}/Extras/BankAccountManager/bin/Debug/net10.0/BankAccountManager.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/BankAccountManager",
+            "console": "integratedTerminal"
         }
     ]
 }

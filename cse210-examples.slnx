@@ -27,5 +27,7 @@
   </Folder>
   <Folder Name="/Extras/">
     <Project Path="Extras/MyFirstMauiApp/MyFirstMauiApp.csproj" />
+    <Project Path="Extras/BankAccountManager/BankAccountManager.csproj" />
+    <Project Path="Extras/BankingTests/BankingTests.csproj" />
   </Folder>
 </Solution>
