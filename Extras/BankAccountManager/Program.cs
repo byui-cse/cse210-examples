@@ -25,6 +25,6 @@ public class Program
         myAccount.Withdraw(200.00m);
         Console.WriteLine($"New Balance: {myAccount.GetBalance():C}");
 
-        Console.WriteLine("\nFinal Balance: {myAccount.GetBalance():C}");
+        Console.WriteLine($"\nFinal Balance: {myAccount.GetBalance():C}");
     }
 }
