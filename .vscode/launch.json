@@ -180,6 +180,16 @@
             "args": [],
             "cwd": "${workspaceFolder}/Polymorphism/Phone",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Extras: MyFirstMauiApp",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-MyFirstMauiApp",
+            "program": "${workspaceFolder}/Extras/MyFirstMauiApp/bin/Debug/net10.0-windows10.0.19041.0/win10-x64/MyFirstMauiApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Extras/MyFirstMauiApp",
+            "console": "integratedTerminal"
         }
     ]
 }

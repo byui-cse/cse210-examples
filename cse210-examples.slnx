@@ -25,4 +25,7 @@
     <Project Path="Polymorphism/OrganStopPizzaImproved/OrganStopPizzaImproved.csproj" />
     <Project Path="Polymorphism/Phone/Phone.csproj" />
   </Folder>
+  <Folder Name="/Extras/">
+    <Project Path="Extras/MyFirstMauiApp/MyFirstMauiApp.csproj" />
+  </Folder>
 </Solution>
